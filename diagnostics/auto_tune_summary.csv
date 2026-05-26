@@ -1,0 +1,66 @@
+data_folder,camera_width,camera_depth,camera_area,rect_width,rect_depth,rect_area,hough_point_count,mesh_point_count,hough_points,trajectory,params,mesh_path,overlay_path,colors_path,fit_ratio,room_debug
+Data/TestData1,2.919,4.128,12.048,4.596,3.652,16.784,18700,36168,"[[-1.06452922  0.24910196 -0.827745  ]
+ [-1.06452922  0.24910196 -0.787745  ]
+ [-1.06452922  0.24910196 -0.747745  ]
+ ...
+ [ 3.17547078  0.36910196 -2.267745  ]
+ [ 3.17547078  0.40910196 -2.267745  ]
+ [ 3.17547078  0.44910196 -2.267745  ]]","[[ 0.95223975  0.31128094]
+ [ 0.9522415   0.3114829 ]
+ [ 0.9524135   0.31153792]
+ ...
+ [ 1.9308488  -2.1390324 ]
+ [ 1.9289485  -2.1393044 ]
+ [ 1.9289485  -2.1393044 ]]","{'dbscan_eps': 0.18, 'cluster_keep_ratio': 0.25, 'sparse_percentile': 90, 'residual_threshold': 0.08}",diagnostics/TestData1_final_mesh.npy,diagnostics/TestData1_auto_tuned_overlay.png,diagnostics/TestData1_mesh_colors.npy,1.3930207549154239,"{'input_point_count': 18700, 'ransac_point_count': 1598, 'dbscan_cluster_count': 7, 'dbscan_noise_count': 0, 'kept_point_count': 1485, 'wall_segment_count': 0, 'dominant_wall_angle_deg': -68.1985855102539, 'rect_width': 4.5955328941345215, 'rect_depth': 3.652200698852539, 'rect_angle_deg': -68.1985855102539, 'room_fit_source': 'hough_oriented_full_extents'}"
+Data/TestData2,6.804,4.974,33.842,5.47,3.278,17.929,40203,43068,"[[-4.173991    0.44768583 -0.3624405 ]
+ [-4.173991    0.44768583 -0.3224405 ]
+ [-4.173991    0.44768583 -0.2824405 ]
+ ...
+ [ 3.586009    0.52768583 -1.9224405 ]
+ [ 3.586009    0.52768583 -1.8824405 ]
+ [ 3.586009    0.56768583 -1.9224405 ]]","[[-0.06741269 -0.3866885 ]
+ [-0.06725766 -0.3865117 ]
+ [-0.06705245 -0.38635987]
+ ...
+ [-1.0632386  -2.5604622 ]
+ [-1.0620108  -2.5612843 ]
+ [-1.0620108  -2.5612843 ]]","{'dbscan_eps': 0.12, 'cluster_keep_ratio': 0.15, 'sparse_percentile': 85, 'residual_threshold': 0.06}",diagnostics/TestData2_final_mesh.npy,diagnostics/TestData2_auto_tuned_overlay.png,diagnostics/TestData2_mesh_colors.npy,0.5297757363602463,"{'input_point_count': 40203, 'ransac_point_count': 1574, 'dbscan_cluster_count': 23, 'dbscan_noise_count': 3, 'kept_point_count': 1101, 'wall_segment_count': 0, 'dominant_wall_angle_deg': -10.972236633300781, 'rect_width': 5.469945907592773, 'rect_depth': 3.2777061462402344, 'rect_angle_deg': -10.972236633300781, 'room_fit_source': 'hough_oriented_full_extents'}"
+Data/TestData3,3.089,2.795,8.636,4.671,2.341,10.935,16941,27960,"[[-0.55855431 -0.12671312  0.50349128]
+ [-0.55855431 -0.08671312  0.46349128]
+ [-0.55855431 -0.08671312  0.50349128]
+ ...
+ [ 3.72144569  0.39328688  2.74349128]
+ [ 3.72144569  0.39328688  2.78349128]
+ [ 3.72144569  0.43328688  2.74349128]]","[[0.28264678 0.1328182 ]
+ [0.28299767 0.1330339 ]
+ [0.2835272  0.1333496 ]
+ ...
+ [1.1712096  1.7425437 ]
+ [1.1683025  1.7363814 ]
+ [1.1683025  1.7363814 ]]","{'dbscan_eps': 0.12, 'cluster_keep_ratio': 0.15, 'sparse_percentile': 85, 'residual_threshold': 0.06}",diagnostics/TestData3_final_mesh.npy,diagnostics/TestData3_auto_tuned_overlay.png,diagnostics/TestData3_mesh_colors.npy,1.2661676568770728,"{'input_point_count': 16941, 'ransac_point_count': 1438, 'dbscan_cluster_count': 16, 'dbscan_noise_count': 0, 'kept_point_count': 1110, 'wall_segment_count': 0, 'dominant_wall_angle_deg': 29.475887298583984, 'rect_width': 4.671076774597168, 'rect_depth': 2.340996265411377, 'rect_angle_deg': 29.475887298583984, 'room_fit_source': 'hough_oriented_full_extents'}"
+Data/TestData4,5.118,2.141,10.956,5.416,3.66,19.823,9436,37926,"[[-2.3521487   0.06190013 -0.0742278 ]
+ [-2.3521487   0.06190013 -0.0342278 ]
+ [-2.3521487   0.06190013  0.0057722 ]
+ ...
+ [ 3.4478513   0.34190013 -0.1142278 ]
+ [ 3.4478513   0.34190013 -0.0742278 ]
+ [ 3.4478513   0.38190013 -0.1142278 ]]","[[-0.12399924  0.43623683]
+ [-0.12374444  0.43614277]
+ [-0.12367284  0.43606955]
+ ...
+ [-0.35225463  0.13886663]
+ [-0.35104454  0.13967514]
+ [-0.35104454  0.13967514]]","{'dbscan_eps': 0.24, 'cluster_keep_ratio': 0.35, 'sparse_percentile': 95, 'residual_threshold': 0.1}",diagnostics/TestData4_final_mesh.npy,diagnostics/TestData4_auto_tuned_overlay.png,diagnostics/TestData4_mesh_colors.npy,1.8092686600897123,"{'input_point_count': 9436, 'ransac_point_count': 1452, 'dbscan_cluster_count': 13, 'dbscan_noise_count': 0, 'kept_point_count': 924, 'wall_segment_count': 0, 'dominant_wall_angle_deg': 22.55724334716797, 'rect_width': 5.416062355041504, 'rect_depth': 3.6599979400634766, 'rect_angle_deg': 22.55724334716797, 'room_fit_source': 'hough_oriented_full_extents'}"
+Data/TestData5,1.919,3.902,7.486,4.354,2.544,11.075,5010,45342,"[[-1.69262834  0.35115276 -0.3641075 ]
+ [-1.65262834  0.51115276 -0.5641075 ]
+ [-1.65262834  0.51115276 -0.5241075 ]
+ ...
+ [ 1.34737166  0.63115276 -1.6041075 ]
+ [ 1.34737166  0.63115276 -1.5641075 ]
+ [ 1.34737166  0.67115276 -1.6041075 ]]","[[-0.01872554  0.14832786]
+ [-0.01787014  0.14935619]
+ [-0.01782802  0.14975563]
+ ...
+ [-0.92381454 -3.5848768 ]
+ [-0.92382205 -3.5841916 ]
+ [-0.92382205 -3.5841916 ]]","{'dbscan_eps': 0.24, 'cluster_keep_ratio': 0.35, 'sparse_percentile': 95, 'residual_threshold': 0.1}",diagnostics/TestData5_final_mesh.npy,diagnostics/TestData5_auto_tuned_overlay.png,diagnostics/TestData5_mesh_colors.npy,1.4794236836252996,"{'input_point_count': 5010, 'ransac_point_count': 963, 'dbscan_cluster_count': 8, 'dbscan_noise_count': 0, 'kept_point_count': 765, 'wall_segment_count': 0, 'dominant_wall_angle_deg': -79.75591278076172, 'rect_width': 4.353653907775879, 'rect_depth': 2.543933391571045, 'rect_angle_deg': -79.75591278076172, 'room_fit_source': 'hough_oriented_full_extents'}"

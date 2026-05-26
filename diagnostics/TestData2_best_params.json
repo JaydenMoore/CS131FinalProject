@@ -1,0 +1,6 @@
+{
+  "dbscan_eps": 0.12,
+  "cluster_keep_ratio": 0.15,
+  "sparse_percentile": 85,
+  "residual_threshold": 0.06
+}
